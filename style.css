@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(42, 36, 36);
+    color: white;
+}
+.wrapper{
+    background-color: rgb(42, 36, 36);
+    height: 1100px;
+    width: fit-contentp;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.wrapper i{
+    font-size: 30px;
+}
+.wrapper .meta i{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper h1{
+    font-size: 26px;
+    margin-top: 3px;
+}
+.wrapper p{
+    margin-top: -12px;
+    justify-content: center;
+    font-size: 17px;
+}
+.wrapper a{
+    color: rgb(48, 48, 152);
+    text-decoration: none;
+}
+.wrapper .row label{
+    display: flex;
+    position: static;
+    margin-left: 2px;
+    gap: -2px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.wrapper .row input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(236, 223, 223);
+    border-radius: 15px;
+    background-color: rgb(42, 36, 36);
+}
+.row p{
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: -7px;
+}
+.row i{
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.birth select{
+    width: 28%;
+    height: 40px;
+    border-radius: 15px;
+    background: transparent;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgb(42, 36, 36);
+    color: white;
+}
+.birth select:first-child{
+    margin-right: 20px;
+}
+
+#day{
+    margin-left: 12px;
+}
+#year{
+    margin-left: 30px;
+}
+.row span{
+    text-decoration: none;
+}
+.wrapper .row button{
+    width: 100%;
+    background-color: rgb(69, 69, 178);
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 20px;
+    border: 0;
+}
+.wrapper button:hover{
+    transition: 0.3s;
+    background-color: rgb(67, 98, 172);
+}
+.wrapper #sub button{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(54, 42, 42);
+    height: 60px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    border: 0px solid rgb(236, 223, 223);
+}
+.wrapper #sub button:hover{
+    transition: 0.3s;
+    background-color: rgb(78, 44, 44);
+}
